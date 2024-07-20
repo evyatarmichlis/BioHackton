@@ -9,7 +9,6 @@ This tool predicts if a given protein sequence is positive or negative to NES an
 
 1. **Clone the Repository or Download the Code**
 
-   \`\`\`sh
    git clone BioHackton
    cd BioHackton
    \`\`\`
@@ -28,7 +27,7 @@ This tool predicts if a given protein sequence is positive or negative to NES an
 
    python nes.py MKTIIALSYIFCLVFAD
 
-   If you also want to see how much each amino acid contributed to the decision of positive or negative, add \`plot\` at the end:
+   If you also want to see how much each amino acid contributed to the decision of positive or negative, add `plot` at the end:
 
    python nes.py <sequence> plot
 
