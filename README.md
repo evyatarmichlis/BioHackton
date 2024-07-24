@@ -27,7 +27,7 @@ This tool predicts if a given protein sequence is positive or negative to NES an
 
    python nes.py MKTIIALSYIFCLVFAD
 
-   If you also want to see how much each amino acid contributed to the decision of positive or negative, add `plot` at the end:
+   If you also want to see how much each amino acid contributed to the decision of positive or negative by calculate the Saliency map of each amino acid , add `plot` at the end:
 
    python nes.py <sequence> plot
 
